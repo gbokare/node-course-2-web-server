@@ -38,11 +38,14 @@ hbs.registerHelper('screamIt',(text) => {
 app.get('/projects',(req,res) =>{
     res.render('projects.hbs',{
         pageTitle:'Projects',
-        
-
     });
 });
 
+app.get('/Careers',(req,res) =>{
+    res.render('careers.hbs',{
+        pageTitle:'Careers',
+    });
+});
 
 
 
